@@ -15,23 +15,32 @@ it's so exciting because the page doesn't need to refresh to load the updated ta
 ### how to run the project:
 first of all you need to install python3, sqlite, and nodejs
 
-  - 1. then you need to create a python virtual environment
-linux
-      python3 -m venv venv
 
-  - 2. after that you should install all of python packages in the virtual envirement
+- 1- Clone this repository:
+  
+        git clone https://github.com/Aliasghar-Salimi/flask-ajax-simple-user-management-system.git
+
+  - 2- then you need to create a python virtual environment
   linux
+
+            python3 -m venv venv
+
+  - 3- after that you should install all of python packages in the virtual envirement
+  linux
+
         pip install -r requirements.txt
 
-  - 3. finally you can put the command bellow to run the project
+  - 4- finally you can put the command bellow to run the project
 linux
+
         python3 app.py
 
-  - 4. open google crome like this: 
+  - 5- open google crome like this: 
 linux
-      google-chrome --disable-web-security
+
+        google-chrome --disable-web-security
  
-  - 5. it's time to enjoy its functionality
+  - 6- it's time to enjoy its functionality
 open http://localhost:8000 in your browser
 
 
