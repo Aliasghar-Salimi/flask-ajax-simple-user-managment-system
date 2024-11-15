@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- bootstarp -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+        <!-- css codes -->
+        <link rel="stylesheet" href="/static/css/main.css">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <p id="info"></p>
+    </head>
+<body>
+    <div class="row">
+        <div id="row_div" class="center"></div>
+        <!-- <div id="error" class="error-alert center"></div>
+        <div id="seccess" class="success center"></div> -->
+        <div class="col-md-12">
+            <div class="card-body" style="text-align: center;">
+                <button class="btn btn-sm btn-primary" style="width: 700px;" id="add-user">Add user</button>
+                <div class="form-wrapper hidden center">
+                    <div class="input-control">
+                        <label for="addname"> Name</label>
+                        <input required class="form-control center" type="text" id="addname">
+                        <div class="error" id="name-error"></div><br>
+                    </div>
+                    <div class="input-control">
+                        <label for="addphone">Phone</label>
+                        <input required class="form-control center" type="text" id="addphone">
+                        <div class="error" id="phone-error"></div><br>
+                    </div>                        
+                    <button class="btn btn-sm btn-info" id="create-user">Add</button>
+                    </div>
+                    <div class="container">
+                    <div style="margin-top: 30px;"></div>
+                    
+                    
+                        <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                    
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <p >name: <b id="name_modal"></b></p>
+                          <p >phone: <b id="phone_modal"></b></p>
+                          <p id="p_modal"></p>
+                        </div>
+                    
+                      </div>
+                    <table id="userTable" width="100%">
+                        <tr>
+                            <th width="10%">ID</th>
+                            <th width="40%">Name</th>
+                            <th width="40%">Phone</th>
+                            <th>Action</th>
+                        </tr>
+                    </table>
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <a href="/"><span class="close">&times;</span></a>
+                        </div>
+                      
+                      </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div >
+    <script defer type="module" src="/static/js/main.js"></script>
+</body>
+</html>
