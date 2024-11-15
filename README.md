@@ -15,23 +15,23 @@ it's so exciting because the page doesn't need to refresh to load the updated ta
 ### how to run the project:
 first of all you need to install python3, sqlite, and nodejs
 
-- 1. then you need to create a python virtual environment
+  - 1. then you need to create a python virtual environment
 linux
-  python3 -m venv venv
+      python3 -m venv venv
 
-- 2. after that you should install all of python packages in the virtual envirement
+  - 2. after that you should install all of python packages in the virtual envirement
   linux
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
-- 3. finally you can put the command bellow to run the project
+  - 3. finally you can put the command bellow to run the project
 linux
-    python3 app.py
+        python3 app.py
 
-- 4. open google crome like this: 
+  - 4. open google crome like this: 
 linux
-  google-chrome --disable-web-security
+      google-chrome --disable-web-security
  
-- 5. it's time to enjoy its functionality
+  - 5. it's time to enjoy its functionality
 open http://localhost:8000 in your browser
 
 
