@@ -18,7 +18,7 @@ first of all you need to install python3, sqlite, and nodejs
 
 - 1- Clone this repository:
   
-        git clone https://github.com/Aliasghar-Salimi/flask-ajax-simple-user-management-system.git
+          git clone https://github.com/Aliasghar-Salimi/flask-ajax-simple-user-management-system.git
 
   - 2- then you need to create a python virtual environment
   linux
