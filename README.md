@@ -20,22 +20,22 @@ first of all you need to install python3, sqlite, and nodejs
   
           git clone https://github.com/Aliasghar-Salimi/flask-ajax-simple-user-management-system.git
 
-  - 2- then you need to create a python virtual environment<br>
+  - 2- then you need to create a python virtual environment<br><br>
   linux<br>
 
             python3 -m venv venv
 
-  - 3- after that you should install all of python packages in the virtual envirement<br>
+  - 3- after that you should install all of python packages in the virtual envirement<br><br>
   linux<br>
 
         pip install -r requirements.txt
 
-  - 4- finally you can put the command bellow to run the project<br>
-linux<br><br>
+  - 4- finally you can put the command bellow to run the project<br><br>
+linux<br>
 
         python3 app.py
 
-  - 5- open google crome like this<br>
+  - 5- open google crome like this<br><br>
 linux<br>
 
         google-chrome --disable-web-security
