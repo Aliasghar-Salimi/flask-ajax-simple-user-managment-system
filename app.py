@@ -3,8 +3,10 @@ import sqlite3
 import connection
 import json
 # from flask_wtf.csrf import CSRFProtect
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # app.secret_key = "flask-1234"
 # CSRFProtect(app)
