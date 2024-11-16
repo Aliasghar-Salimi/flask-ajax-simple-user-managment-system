@@ -35,12 +35,8 @@ linux<br>
 
         python3 app.py
 
-  - 5- open google crome like this<br><br>
-linux<br>
 
-        google-chrome --disable-web-security
- 
-  - 6- it's time to enjoy its functionality<br>
+  - 5- it's time to enjoy its functionality<br>
 open http://localhost:8000 in your browser
 
 
